@@ -1,0 +1,41 @@
+<!<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BBQ Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../assets/icon.jpg" type="image/jpg">
+    </head>
+    <body>
+
+        <div class ="conteiner">
+            <div class="text">
+                <h1>Welcome to your new BBQ calculator!</h1>
+                <p class="p_texto">How many times did you have leftover food after you invited your friends and family over for a BBQ?<br>
+                We always end up with food left over to throw away, and we always end up spending more money than we need to.</p>
+                <br>
+                <img class=" img_texto" src="../assets/img_bbq.jpg">
+            </div>
+            <div class="calculator">
+                <h1 class="texto_calculator">BBQ Calculator</h1>
+                <label for="adultos">How many adults are going?</label>
+                <input id ="adultos" name ="adultos" type ="number" placeholder ="Adults">
+                <label for="criancas">How many childs are going?</label>
+                <input id ="criancas" name ="criancas" type ="number" placeholder ="Childs">
+                <label for="duracao">How many time the event will have?</label>
+                <input id ="duracao" name ="duracao" type ="number" placeholder ="Time(h)">
+                <button onclick="calcular()">Calcular</button>
+
+                <div id ="resultado"></div>
+            </div>
+
+        </div>
+
+
+        <script src="../scripts/scripts.js" async defer></script>
+    </body>
+</html>

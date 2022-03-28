@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+    
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text{
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 2%;
+    border-radius: 4rem 4rem 4rem 4rem;
+    
+}
+.calculator{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fed854;
+    height: 70%;
+    width: 30%;
+    margin-top: 4%;
+    margin-right: 1%;
+    border-radius: 4rem 4rem 4rem 4rem;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.texto_calculator{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+ input{
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+     text-align: center;
+     box-sizing: border-box;
+     margin-bottom: 25px;
+     padding: 10px;
+ }
+ button{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 4rem 4rem 4rem 4rem;
+    border-color: #8a2323;
+ }
+.p_texto{
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.img_texto{
+    display: flex;
+   margin: auto;
+    
+}
